@@ -4,11 +4,9 @@
 #
 # See documentation in:
 # http://doc.scrapy.org/en/latest/topics/items.html
-
-from dateutil.parser import *
-from dateutil.tz import *
-from datetime import *
 import scrapy
+
+
 
 
 class LkmlPatch(scrapy.Item):
